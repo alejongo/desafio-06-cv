@@ -1,0 +1,17 @@
+body,
+nav {
+  background-color: #f7ece1;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.img-profile {
+  max-width: 200px;
+}
