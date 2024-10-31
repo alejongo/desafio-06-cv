@@ -36,11 +36,19 @@
         </div>
     </nav>
 
-    <main class="container mt-5">
+    <main class="container mt-1">
         <div class="row">
-            <div class="col-lg-10 offset-1 col-sm-10 offset-sm-1 d-flex mb-2 border">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="font-size: 0.8rem;">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-sm-10 offset-sm-1 d-flex mb-2">
                 <div>
-                    <img src="assets/img/alejongo-profile-photo.jpg" width="80"
+                    <img src="assets/img/alejongo-profile-photo.jpg" width="120"
                         class="img-thumbnail float-start bg-transparent border-0 rounded-4" alt="image-profile-alejo">
                 </div>
                 <div class="ms-3">
@@ -56,29 +64,21 @@
                 <div class="row">
                     <h5 class="raleway-bold mb-3">Projects</h5>
                     <div class="col-12">
-                        <div class="card ps-2 pe-4 rounded-pill mb-3">
+                        <div class="card ps-2 pe-4 rounded-4 mb-3">
                             <div class="d-flex flex-wrap  justify-content-between align-items-center">
-                                <img src="assets/img/logo-las-hermosas-coffee-house.png" width="60"
+                                <img src="assets/img/project-avatar.png" width="60"
                                     class="img-thumbnail float-start bg-transparent border-0 rounded-circle"
                                     alt="image-profile-alejo">
-                                <p class="flex-fill ms-4 mt-2 flex-grow-2">Full time as co-CEO </br> <span
-                                        class="raleway-bold" style="font-size: 0.9rem"> Las
-                                        hermosas Coffee House
+                                <p class="flex-fill ms-4 mt-3 flex-grow-2">Project Title </br> <span
+                                        class="raleway-bold text-secondary" style="font-size: 0.7rem"> Type: SaaS,
+                                        Ecommerce
                                     </span></p>
-                                <p class="text-secondary mt-3" style="font-size: 0.8rem">Ago 2022 to present</p>
-                            </div>
-
-                        </div>
-
-                        <div class="card  ps-2 pe-4 rounded-pill mb-3">
-                            <div class="d-flex flex-wrap  justify-content-between align-items-center">
-                                <img src="assets/img/Logo-autopagos-2020.jpg" width="60"
-                                    class="img-thumbnail float-start bg-transparent border-0 rounded-circle"
-                                    alt="image-profile-alejo">
-                                <p class="flex-fill ms-4 mt-2">Full time as Cofounder & CEO </br> <span
-                                        class="raleway-bold" style="font-size: 0.9rem"> Autopagos
-                                    </span></p>
-                                <p class="text-secondary mt-3" style="font-size: 0.8rem">Ene 2014 to Ago 2019</p>
+                                <p class="mt-3" role="button">
+                                    <a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                        style="font-size: 0.8rem">View project <i
+                                            class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                                        <a />
+                                </p>
                             </div>
 
                         </div>
